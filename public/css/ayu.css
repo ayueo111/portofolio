@@ -1,0 +1,79 @@
+/* Link "Create" button styling */
+a[href*='skill.create'] {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a[href*='skill.create']:hover {
+    background-color: #218838;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action buttons styling */
+.table td a {
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.table td a:nth-child(1) {
+    background-color: #17a2b8;
+}
+
+.table td a:nth-child(1):hover {
+    background-color: #138496;
+}
+
+.table td a:nth-child(2) {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.table td a:nth-child(2):hover {
+    background-color: #e0a800;
+}
+
+.table td a:nth-child(3) {
+    background-color: #dc3545;
+}
+
+.table td a:nth-child(3):hover {
+    background-color: #c82333;
+}
